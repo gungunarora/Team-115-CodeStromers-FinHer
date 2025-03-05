@@ -1,24 +1,25 @@
-/* Background for Body */
 body {
-    background-color: #142848;
+    background-image: url("../assets/realistic-money-element/8932811.png");
+    background-size: cover;
+    background-position: center;
+    background-color:#F1F7ED;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh; /* Full height of the viewport*/
     overflow: auto; /* Enable scrolling if needed */
-    background-size: cover; /* Ensure image covers the screen without pixelation */
+    background-size: cover; /* Ensure image covers the screen without pixelation*/
     margin: 0;
-}
+} 
 
 /* Outer Div Background */
 .main-container {
-    margin-top:20%;
-    display: flex; /* Flexbox for horizontal layout */
-    width: 90%;
-    max-width: 1200px; /* Increased the max width for better spacing */
+  margin-bottom:-20%;
+    display: flex; /*blo Flexbox for horizontal layout */
+    width:1000px;/*Increased the max width for better spacing */
     padding: 40px;
-    background: rgba(76, 86, 97, 0.5); /* Dark semi-transparent background */
-    border-radius: 20px;
+    background: #315C2B; /* Dark semi-transparent background */
+    border-radius:2px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     position: relative;
     height: 80%; /* Set height to 80% of the viewport for better scaling */
@@ -30,7 +31,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 50%;
+    width: 1000px;
     max-height: 100%; /* Ensure the left side doesn't overflow */
     overflow-y: auto; /* Add vertical scroll for the form */
     padding-right: 20px; /* Space on the right to prevent content from touching the image */
@@ -63,15 +64,15 @@ body {
 
 /* Transparent Glassmorphism Login Box */
 .login-box {
-    background: rgba(255, 255, 255, 0.1); /* Transparent background with white tint */
+    background: #7CA982; /* Transparent background with white tint */
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color: white;
     text-align: center;
-    width: 100%; /* Use 100% of the available width */
-    max-width: 400px; /* Set a max width for the form */
+    width: 1000px; /* Use 100% of the available width */
+    max-width: 800px; /* Set a max width for the form */
     overflow-y: auto; /* Allow scrolling if the content overflows */
 }
 
@@ -110,26 +111,26 @@ body {
 
 /* Button */
 .btn-primary {
-    background-color: #119DA4;
+    background-color:rgb(93, 216, 105);
     border: none;
     transition: 0.3s;
 }
 
 .btn-primary:hover {
-    background-color: #119DA4;
+    background-color:rgb(93, 216, 105);
     transform: scale(1.05);
 }
 
 /* Register Link */
 p a {
-    color: #ffb74d;
+    color: #020202;
     text-decoration: none;
     transition: 0.3s;
 }
 
 p a:hover {
     text-decoration: underline;
-    color: #ffa726;
+    color: #F1F7ED;
 }
 
 /* Floating Animated Symbols */
@@ -149,6 +150,9 @@ p a:hover {
     animation: floating 4s infinite ease-in-out;
 }
 
+.color-green{
+    background-color:#315C2B;
+}
 .floating-symbol:nth-child(1) {
     top: 10%;
     left: 20%;
@@ -167,6 +171,10 @@ p a:hover {
     animation-delay: 2s;
 }
 
+.form-check{
+    display:flex;
+
+}
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 768px) {
     .main-container {
@@ -192,4 +200,4 @@ p a:hover {
         height: 300px; /* Set a fixed height for the image on smaller screens */
         background-position: center center;
     }
-}
+} 

@@ -61,31 +61,42 @@
   }
    */
 
-   body{
+   /* body{
     background-color: #FBFFE4; /* Soft Yellow */
-   }
+   /* } */
 
+
+   body {
+    background-image: url("../assets/realistic-money-element/8932811.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+ 
 
    .profile-container {
     max-width: 700px;
     margin: auto;
     padding:10%;
-    background-color: #FBFFE4; /* Soft Yellow */
+    background-color:rgb(252, 252, 251); /* Soft Yellow */
     border-radius: 10px;
     text-align: center;
     animation: fadeIn 1s ease-in-out;
 }
 
 .profile-card, .transaction-card {
-    border: 1px solid #3D8D7A; /* Dark Green */
-    padding: 20px;
+    border: 1px solidrgb(243, 248, 247); /* Dark Green */
+    padding: 30px;
     border-radius: 10px;
     margin-bottom: 20px;
-    background-color: #A3D1C6; /* Beige */
+    background-color:rgb(225, 228, 228); /* Beige */
     color: #3D8D7A; /* Dark Green for text */
     transition: transform 0.3s ease-in-out;
 }
 
+.font-setting{
+  font-size:1.9rem;
+}
 .profile-card:hover, .transaction-card:hover {
     transform: scale(1.05);
 }
@@ -121,11 +132,13 @@
 }
 
 .profile-fields label {
-    display: block;
+    display: flex;
     margin-top: 10px;
     font-weight: bold;
     color: #3D8D7A; /* Dark Green */
 }
+
+
 
 .profile-fields input {
     width: 100%;
@@ -159,6 +172,79 @@
     color: #3D8D7A;
 }
 
+
+
+.profile-actions {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.action-button {
+  padding: 90px 90px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color:#e5e5e5;
+  color:rgb(58, 57, 57);
+  display:absolute;
+}
+
+.action-button:hover {
+  background-color: transparent;
+}
+
+.transactions {
+  background-image: url("../assets/money/internet_banking.jpg");
+  background-size: cover;
+  /* width:400px;
+  height:400px; */
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  background-color:rgb(153, 218, 220);
+}
+/* img {
+  
+} */
+
+
+
+/* .transactions:active {
+  transform: scale(0.8);
+} */
+
+ /* .transactions:hover {
+  background-color:rgb(183, 229, 194);
+}  */
+
+.transactions2 {
+  background-image: url("../assets/payment.jpg");
+  background-size: cover;
+  /* width:400px;
+  height:400px; */
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+/* img {
+  
+} */
+
+
+/* 
+.transactions2:active {
+  transform: scale(0.8);
+}
+
+.transactions2:hover {
+  background-color:rgb(230, 240, 235);
+} */
+
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -166,4 +252,4 @@
     to {
         opacity: 1;
     }
-}
+} 
