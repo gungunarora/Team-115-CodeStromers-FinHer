@@ -1,11 +1,12 @@
 
 import './App.css';
-import ProfilePage from './pages/Profile';
+import Calculate from './pages/Calculate';
+import FinancialTools from './pages/FinancialToolsPage';
 function App() {
   return (
     <div className="App">
-       {/* <h1 style={{ textAlign: "center", marginTop: "20px" }}>Finance Profile</h1>
-       <ProfilePage /> */}
+      <Calculate></Calculate>
+      <FinancialTools></FinancialTools>
     </div>
   );
 }
