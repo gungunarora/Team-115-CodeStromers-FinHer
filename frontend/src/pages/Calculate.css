@@ -1,0 +1,181 @@
+body {
+    background-color: #FBFFE4;  /* Light background */
+    color: #3D8D7A;  /* Dark teal for text */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-section div {
+    flex: 1;
+}
+
+.hero-section h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-section .highlight {
+    color: #3D8D7A; /* Dark teal */
+}
+
+.hero-section h2 {
+    color: #A3D1C6; /* Muted pink */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Budget Management */
+.budget-management {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.budget-management h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    color: #3D8D7A;
+}
+
+/* Budget Calculator Section */
+.budget-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.budget-info {
+    background-color: #A3D1C6; /* Soft teal */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1rem;
+    color: #3D8D7A;
+}
+
+.budget-info ul {
+    padding-left: 20px;
+}
+
+.budget-info li {
+    margin-bottom: 5px;
+}
+
+
+.card {
+    background-color: #B3D8A8; /* Soft green */
+    color: #3D8D7A;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h5 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px auto;
+    border: 1px solid #3D8D7A;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #FBFFE4;
+    color: #3D8D7A;
+    display: block;
+}
+
+.btn {
+    background-color: #3D8D7A; /* Dark teal */
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #2F6E5D;
+}
+
+.btn.expense {
+    background-color: #3D8D7A; /* Muted pink */
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1 rem;
+    width: 100%;
+}
+
+.btn.expense:hover {
+    background-color: #2F6E5D;
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    color: #3D8D7A;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container img {
+        max-width: 80%;
+    }
+
+    .budget-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
