@@ -1,4 +1,4 @@
-body {
+.body-str {
     background-image: url("../assets/realistic-money-element/8932811.png");
     background-size: cover;
     background-position: center;
@@ -11,7 +11,13 @@ body {
     background-size: cover; /* Ensure image covers the screen without pixelation*/
     margin: 0;
 } 
-
+.signup-setting{
+    margin-top:26%;
+}
+.login-setup{
+    margin-left:14%;
+    margin-top:10%;
+}
 /* Outer Div Background */
 .main-container {
   margin-bottom:-20%;

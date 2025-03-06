@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinHer</title>
+    <!-- <link rel="stylesheet" href="/styles.css" /> -->
+    <link rel="icon" href="#" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F1F7ED;
+   overflow-x:hidden
+}
+.navbar nav{
+    margin-top:30px;
+}
+.navbar{
+    margin-left:20%;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:#315C2B;
+    transition:color 1s linear;
+    font-size:1.3rem;
+}
+.sub-menu{
+    display: none;
+    background-color:rgba(0,0,0,0.5);
+}
+.sub-menu ul li{
+    border-bottom:2px solid #315C2B;
+    margin-right:10px;
+    text-align: center;
+}
+.sub-menu ul{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+nav ul .part5:hover .sub-menu{
+    display:block;
+    position:absolute;
+}
+nav ul {
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+}
+.navbar {
+    border: 2px solid transparent; /* Green border color */
+    box-shadow: -6px -7px 73px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: -6px -7px 73px 0px rgba(0,0,0,0.2);
+   
+    
+    
+}
+nav ul li{
+    list-style-type: none;
+    margin-left:10px;
+}
+i{
+    margin-right:5px;
+    color:#81726A;
+}
+nav ul li a:hover{
+    color:#80ded9;
+}
+.part6{
+    margin-left:25%;
+}
+.part7{
+    margin-left:5%;
+}
+.logo{
+    margin-left:-23%;
+}
+.part1{
+    margin-left:19%;
+}
+.desing1{
+    border:2px solid #B3D8A8;
+    border-radius:25% 75% 68% 32% / 47% 33% 67% 53% ;
+    width:40%;
+    min-height:60vh;
+    margin-left:5%;
+    margin-top:10%;
+    background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.desing2{
+    border:2px solid #B3D8A8;
+    border-radius:25% 75% 68% 32% / 47% 33% 67% 53% ;
+    width:40%;
+    min-height:70vh;
+    margin-left:60%;
+    /* margin-top:30%; */
+    background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.desing3{
+    border:2px solid #B3D8A8;
+    border-radius:25% 75% 68% 32% / 47% 33% 67% 53% ;
+    width:40%;
+    min-height: 60vh;
+    margin-left:5%;
+    /* margin-top:30%; */
+    background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.desing4{
+    border:2px solid #B3D8A8;
+    border-radius:25% 75% 68% 32% / 47% 33% 67% 53% ;
+    width:40%;
+    min-height: 70vh;
+    margin-left:60%;
+    /* margin-top:30%; */
+    background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.desing5{
+    border:2px solid #B3D8A8;
+    border-radius:25% 75% 68% 32% / 47% 33% 67% 53% ;
+    width:40%;
+    min-height: 60vh;
+    margin-left:5%;
+    /* margin-top:30%; */
+    background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.desing6{
+    border:2px solid #B3D8A8;
+    border-radius:25% 75% 68% 32% / 47% 33% 67% 53% ;
+    width:40%;
+    min-height: 70vh;
+    margin-left:60%;
+    /* margin-top:30%; */
+    background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*1st movies discription*/
+.movieDis{
+    margin-top:-200%;
+    overflow:hidden;
+background-attachment: fixed;
+background-color:transparent;
+}
+
+.dis1{
+    /* border:2px solid white; */
+  
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:700px;
+    height:400px;
+    color:black;
+   
+}
+.Img{
+    width:550px;
+    height:350px;
+}
+.disHead1{
+    width:300px;
+    margin-top:50%;
+}
+.disHead1 p{
+    width:550px;
+}
+.disHead2 p{
+    width:500px;
+}
+.disHead3 p{
+    width:500px;
+}
+.disHead5 p{
+    width:500px;
+}
+/*2nd movie discription*/
+.dis2{
+    /* border:2px solid white; */
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:750px;
+    height:400px;
+    color:black;
+   margin-left:50%;
+}
+.disHead2{
+    width:300px;
+    margin-top:50%;
+    
+}
+
+/*3rd movie discription*/
+.dis3{
+    /* border:2px solid white; */
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:700px;
+    height:400px;
+    color:black;
+    
+}
+.disHead3{
+    width:300px;
+    margin-top:50%;
+}
+
+/*4th movie discription*/
+.dis4{
+    /* border:2px solid white; */
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:750px;
+    height:400px;
+    color:black;
+    margin-left:50%;
+}
+.disHead4{
+    width:300px;
+    margin-top:50%;
+   
+}
+
+
+/*5th movie discription*/
+.dis5{
+    /* border:2px solid white; */
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:700px;
+    height:400px;
+    color:black;
+}
+.disHead5{
+    width:300px;
+    margin-top:50%;
+}
+
+/*6th movie discription*/
+.dis6{
+    /* border:2px solid white; */
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:750px;
+    height:400px;
+    color:black;
+   margin-left:50%;
+}
+.disHead6{
+    width:300px;
+    margin-top:50%;
+    
+}
+
+
+
+.head{
+    color:#315C2B;;
+    font-size:1.5rem;
+
+}
+
+
+.head{
+    font-size:2.5rem;
+    margin-left:10%;
+    margin-bottom:5%;
+
+}
+h1{
+    color:black;
+}
+p{
+    color:black;
+}
+.contact{
+    margin-top:15%;
+    margin-bottom:10%;
+}
+.cont_icon{
+    color:#315C2B;
+    margin-left:50%;
+    font-size:3rem;
+}
+.cont_icon1{
+    color:#315C2B;
+    margin-left:42%;
+    font-size:3rem;
+    margin-top:8px;
+}
+.cont_head1{
+    margin-left:40%;
+    margin-top:5%;
+    color:black;
+}
+.cont_head span{
+    display:block;
+    margin-left:15%;
+}
+.cont_head{
+    margin-left:25%;
+    word-spacing: 1rem;
+    color:black;
+}
+.contact_start{
+    /*border:2px solid white;*/
+    height:600px;
+    margin-top:10%;
+    align-content: center;
+    background-image: url('https://t3.ftcdn.net/jpg/05/89/92/50/360_F_589925063_ecQvtkwNAEnB7Nd9ad3hM7GOP0lae694.jpg');
+    background-size: cover;
+}
+.cont_list{
+    /*bordeR:2px solid white;*/
+    margin-left:180px;
+    width:30%;
+    height:60%;
+    align-content: center;
+}
+.contact_list{
+    /*bordeR:2px solid white;*/
+    display:flex;
+    gap:5px;
+    height:350px;
+    width:100%;
+    border-radius:100% 0% 100% 0% / 74% 100% 0% 26% ;
+    margin-top:20%;
+    /* background: #0F2027;  
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+background-color:white;
+}
+.cont_list p{
+    text-align:justify;
+    letter-spacing:0.1rem;
+}
+.p1{
+    margin-top:10%;
+}
+.cont_list a{
+    text-decoration:none;
+    margin-left:30%;
+    color:rgb(75, 204, 233);
+}
+.cont_list a:hover{
+    color:red;
+}
+.contact1{
+    position:fixed;
+    left:92%;
+    bottom:10%;
+    
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    overflow: hidden;
+    width:150px;
+    height:65px;
+    background-color:#315C2B;
+    transition: all 1s linear;
+}
+.contact1:hover{
+    height:100px;
+}
+.con_img{
+    width:50px;
+    height:50px;
+    display:inline-block;
+   margin-left:30%;
+   margin-top:4%;
+}
+.main_footer{
+    display:flex;
+}
+.footer{
+    background-color:white;
+}
+.footer_div{
+    /*border:2px solid white;*/
+    width:300px;
+    height:300px;
+    margin-left:40px;
+}
+.footer_div li a{
+    font-size:1.2rem;
+    color:#315C2B;
+}
+.footer_div ul li{
+    margin-top:20px;
+}
+.footer_img{
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    margin:20px;
+    /*margin-top:-20%;*/
+}
+.footer_div{
+    border-radius:10px;
+}
+h3{
+    color:black;
+    margin-top:-6%;
+    margin-left:12px;
+}
+.last_p{
+    margin-left:35%;
+}
+.aboutImg{
+    width:80px;
+    height:80px;
+    display:inline-block;
+    margin-left:40px;
+    margin-bottom:-4%;
+  }
+  .fiximg1{
+    width:150px;
+    height:150px;
+    margin-top:-10%;
+    margin-left:180%;
+  }
+  .divimg1{
+    margin-top:-50%;
+  }
+  .fiximg2{
+    width:150px;
+    height:150px;
+    margin-top:-10%;
+    margin-left:-200%;
+  }
+  .divimg2{
+    margin-top:-50%;
+  }
+  .fiximg3{
+    width:150px;
+    height:150px;
+    margin-top:-10%;
+    margin-left:220%;
+  }
+  .divimg3{
+    margin-top:-25%;
+  }
+  .fiximg4{
+    width:150px;
+    height:150px;
+    margin-top:-10%;
+    margin-left:-220%;
+  }
+  .divimg4{
+    margin-top:-70%;
+  }
+  .fiximg5{
+    width:150px;
+    height:150px;
+    margin-top:-10%;
+    margin-left:220%;
+  }
+  .divimg5{
+    margin-top:-30%;
+  }
+  .fiximg6{
+    width:150px;
+    height:150px;
+    margin-top:-10%;
+    margin-left:-200%;
+  }
+  .divimg6{
+    margin-top:-60%;
+  }
+  .fiximg7{
+    width:150px;
+    height:150px;
+    margin-top:-10%;
+    margin-left:180%;
+  }
+  .divimg7{
+    margin-top:-50%;
+  }
+      /* Color Scheme */
+      body {
+        background-color: #f4f4f9; /* Light background */
+        color: #333; /* Default text color */
+      }
+
+      .parahead {
+        color: #7ca982; /* Blue color for the main heading */
+        letter-spacing: 1px;
+      }
+
+      .framer-paragraph {
+        font-size: 1.3rem;
+        background: linear-gradient(
+          to bottom right,
+          #d1e7b7,
+          #c9e3f1
+        ); /* Light Olive Green to Powder Blue */
+
+        font-style: italic;
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        text-align: center;
+        background-color: rgba(76, 175, 80, 0.1); /* Light green background */
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+      }
+
+      /* Hover effect for paragraph background (optional) */
+      .framer-paragraph:hover {
+        background-color: rgba(76, 175, 80, 0.2); /* Darker green on hover */
+      }
+      .container {
+        text-align: center;
+        margin-bottom: -3%;
+        margin-top: 18%;
+        width: 50%;
+      }
+
+      .parahead {
+        font-size: 1.3rem; /* Adjust as needed */
+        font-weight: 700; /* Adjust as needed */
+        color: #444444;
+        margin-bottom: 10px; /* Add some space below */
+      }
+
+      .framer-paragraph {
+        font-size: 1.3rem; /* Adjust as needed */
+        font-weight: 400; /* Adjust as needed */
+        color: black;
+        margin-top: 20px; /* Add some space above */
+      }
+      .buttons {
+        margin-top: 30px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 4px;
+        margin: 0 10px;
+        cursor: pointer;
+      }
+
+      .button-primary {
+        background-color: #7ca982; /* Blue background */
+        color: black;
+        border: none;
+      }
+
+      .button-secondary {
+        background-color: transparent;
+        color: #444444;
+        border: 2px solid #444444;
+      }
+
+      .left-image {
+        width: 550px; /* Adjust the size as needed */
+        height: auto;
+        margin-left: 65%; /* Space between the image and the text */
+        margin-top: -25%;
+      }
+
+      .parahead {
+        flex-grow: 1; /* Ensures the paragraph takes up remaining space */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="con">
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li class="logo">FinHer</li>
+            <li class="content part1">
+              <a href="/landing.html"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li class="content part2 cont_p">
+              <a href="/dashboard"><i class="fa-solid fa-tv"></i>Dashboard</a>
+            </li>
+            <li class="content part3 cont_p">
+              <a href="/calculate"
+                ><i class="fa-solid fa-film"></i>Transaction</a
+              >
+            </li>
+
+            <li class="content part3 cont_p">
+                <a href="/budgetTracker"
+                  ><i class="fa-solid fa-film"></i>Budget Tracker</a
+                >
+              </li>
+
+            <li class="content part4 cont_p">
+              <a href="front.html"
+                ><i class="fa-solid fa-medal"></i>Goal Planing</a
+              >
+            </li>
+            <li class="content part5 cont_p">
+              <a href="#"><i class="fa-solid fa-list"></i>Investing</a>
+              <div class="sub-menu">
+                <ul>
+                  <li class="sub_part"><a href="#tv_part">Goal</a></li>
+                  <li class="sub_part"><a href="#movie_part">Movies</a></li>
+                  <li class="sub_part"><a href="#sports_part">Sports</a></li>
+                  <li class="sub_part"><a href="front.html">About Us</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="content part6 cont_p">
+              <a href="/login" target="_blank"
+                ><i class="fa-solid fa-user"></i>Login</a
+              >
+            </li>
+            <li class="content part7 cont_p">
+              <a href="/signup" target="_blank"
+                ><i class="fa-solid fa-address-book"></i>Signup</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="container">
+        <h1 style="margin-top: -5%; font-size: 6.5rem; margin-bottom: 10%">
+          FinHer
+        </h1>
+        <h1 class="parahead">
+          Empowering women to take control of their financial future with
+          trusted tools and expert guidance
+        </h1>
+        <p class="framer-paragraph">Financial freedom for empowered women</p>
+        <div class="buttons">
+          <a href="#" class="button button-primary">Start building for free</a>
+          <a href="#" class="button button-secondary">Learn more</a>
+        </div>
+      </div>
+      <div class="img">
+        <img
+          src="https://png.pngtree.com/png-clipart/20250103/original/pngtree-conceptual-image-of-a-light-bulb-with-an-umbrella-and-money-png-image_20080164.png"
+          alt="Empowerment Image"
+          class="left-image"
+        />
+      </div>
+    </div>
+    <div class="desing1"></div>
+    <div class="desing2"></div>
+    <div class="desing3"></div>
+    <div class="desing4"></div>
+    <div class="desing5"></div>
+    <div class="desing6"></div>
+    <div class="movieDis">
+      <img class="aboutImg" src="./assests/aboutus.gif" alt="loading..." />
+      <h1 class="head">Introduction</h1>
+      <div class="dis1">
+        <div class="disImg1 img">
+          <img
+            class="Img"
+            src="./assests/Budget 3D Animated Icon.gif"
+            alt=""
+          />
+        </div>
+        <div class="disHead1">
+          <h1 style="color: #315c2b; margin-left: 30%; font-size: 2.8rem">
+            Budgeting
+          </h1>
+          <p style="margin-left: 25%; font-size: 1.8rem">
+            By creating a budget, you can manage day-to-day expenses, save for
+            future milestones, and invest in long-term financial security.
+          </p>
+        </div>
+        <div class="divimg1">
+          <img
+            class="fiximg1"
+            src="https://pngimg.com/d/number1_PNG14889.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="dis2">
+        <div class="disHead2">
+          <h1 style="color: #315c2b; margin-left: -90%; font-size: 2.8rem">
+            Short Term Deposits
+          </h1>
+          <p style="margin-left: -110%; font-size: 1.8rem">
+            These deposits offer a fixed interest rate over a shorter period,
+            typically ranging from a few months to a year, making them ideal for
+            those with specific financial goals in the near future.
+          </p>
+        </div>
+        <div class="disImg2 img">
+          <img
+            class="Img Img2"
+            src="./assests/Term Sheet 3D Animated Icon.gif"
+            alt=""
+          />
+        </div>
+        <div class="divimg2">
+          <img
+            class="fiximg2"
+            src="https://www.pngall.com/wp-content/uploads/2/2-Number-Transparent.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div style="margin-top: 5%" class="dis3">
+        <div class="disImg3 img">
+          <img
+            class="Img Img3"
+            src="./assests/Price Tag 3D Animated Icon.gif"
+            alt=""
+          />
+        </div>
+        <div class="disHead3">
+          <h1 style="color: #315c2b; margin-left: 80%; font-size: 2.8rem">
+            Taxation
+          </h1>
+          <p style="margin-left: 45%; font-size: 1.8rem">
+            Taxation is an essential aspect of financial planning that every
+            woman should understand to optimize her finances.
+          </p>
+        </div>
+        <div class="divimg3">
+          <img
+            class="fiximg3"
+            src="https://pngimg.com/d/number3_PNG14967.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div style="margin-top: 10%" class="dis4">
+        <div class="disHead4">
+          <h1 style="color: #315c2b; margin-left: -50%; font-size: 2.8rem">
+            Gold
+          </h1>
+          <p style="margin-left: -150%; font-size: 1.8rem">
+            Gold has long been a symbol of wealth and security, making it a
+            valuable addition to any woman’s financial portfolio.
+          </p>
+        </div>
+        <div class="disImg4 img">
+          <img
+            class="Img Img4"
+            src="./assests/Commodity Money 3D Animated Icon (1).gif"
+            alt=""
+          />
+        </div>
+        <div class="divimg4">
+          <img
+            class="fiximg4"
+            src="https://static.vecteezy.com/system/resources/thumbnails/016/653/112/small/number-4-nylon-weave-3d-render-free-png.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div style="margin-top: 5%" class="dis5">
+        <div class="disImg5 img">
+          <img
+            class="Img Img5"
+            src="./assests/Bridge Loan 3D Animated Icon.gif"
+            alt=""
+          />
+        </div>
+        <div class="disHead5">
+          <h1 style="color: #315c2b; margin-left: 80%; font-size: 2.8rem">
+            Loan
+          </h1>
+          <p style="margin-left: 40%; font-size: 1.8rem">
+            Anime's vibrant colors, exaggerated expressions, and fluid animation
+            create a visually striking experience.
+          </p>
+        </div>
+        <div class="divimg5">
+          <img
+            class="fiximg5"
+            src="https://pngimg.com/d/number5_PNG15086.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="dis6">
+        <div class="disHead6">
+          <h1 style="color: #315c2b; margin-left: -80%; font-size: 2.8rem">
+            Properties
+          </h1>
+          <p style="margin-left: -150%; font-size: 1.8rem">
+            Many C-dramas are based on historical events or fiction, providing a
+            rich and immersive experience.
+          </p>
+        </div>
+        <div class="disImg6 img">
+          <img
+            class="Img Img6"
+            src="./assests/Term Sheet 3D Animated Icon.gif"
+            alt=""
+          />
+        </div>
+        <div class="divimg6">
+          <img
+            class="fiximg6"
+            src="https://pngimg.com/d/number6_PNG18539.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="contact_start">
+        <div class="contact_list">
+          <div class="cont_list cont_list1">
+            <i class="fa-solid fa-phone cont_icon"></i>
+            <h2 style="color: #315c2b" class="cont_head1">Talk to sales</h2>
+            <p class="p1">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Temporibus, incidunt? Pariatur, cum.
+            </p>
+            <a href="#">+353 1 512 4400</a>
+          </div>
+          <div class="cont_list cont_list2">
+            <i class="fa-solid fa-message cont_icon1"></i>
+            <h2 style="color: #315c2b" class="cont_head">
+              Contact Customer<span>Support</span>
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              cupiditate dolor rerum magnam unde sequi deserunt, impedit atque
+              delectus cumque numquam animi placeat!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p style="color: #315c2b; margin-top: 30px">
+        Questions? Call 000-800-919-1694
+      </p>
+      <div class="main_footer">
+        <div class="footer_div">
+          <ul>
+            <li class="footer_list"><a href="#">FAQ</a></li>
+            <li class="footer_list"><a href="#">Investor Relations</a></li>
+            <li class="footer_list"><a href="#">Privacy</a></li>
+            <li class="footer_list"><a href="#">Speed Test</a></li>
+          </ul>
+        </div>
+        <div class="footer_div f_div1">
+          <ul>
+            <li class="footer_list"><a href="#">Help Centers</a></li>
+            <li class="footer_list"><a href="#">Jobs</a></li>
+            <li class="footer_list"><a href="#">Cookie Prefrences</a></li>
+            <li class="footer_list"><a href="#">Legal Notices</a></li>
+          </ul>
+        </div>
+        <div class="footer_div">
+          <ul>
+            <li class="footer_list"><a href="#">Account</a></li>
+            <li class="footer_list"><a href="#">Ways to Watch</a></li>
+            <li class="footer_list"><a href="#">Corporate Information</a></li>
+            <li class="footer_list"><a href="#">Only on MovieMingle</a></li>
+          </ul>
+        </div>
+        <div class="footer_div f_div1">
+          <ul>
+            <li class="footer_list"><a href="#">Media Center</a></li>
+            <li class="footer_list"><a href="#">Terms of Us</a></li>
+            <li class="footer_list"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <h3>FOLLOW US ON:</h3>
+      <div class="follow">
+        <a href="#"
+          ><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwH--J-ZMUg8puNfUxE6YXQi3yVHuAORDxow&s"
+            alt=""
+            class="footer_img"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx4uLXVt448bgmcNF6qjjBjiIs38o7fNVbDg&s"
+            alt=""
+            class="footer_img"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/124/124021.png"
+            alt=""
+            class="footer_img"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://cdn-icons-png.freepik.com/256/15707/15707884.png?semt=ais_hybrid"
+            alt=""
+            class="footer_img"
+        /></a>
+      </div>
+    </div>
+    <p class="last_p">&copy; 2021 National coelho | All Rights Reserved</p>
+  </body>
+</html>
