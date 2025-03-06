@@ -30,7 +30,7 @@ With AI-powered insights, FinHer simplifies financial management and enables use
 
 ## 🏗️ Tech Stack
 
-**Frontend:** React.js, Tailwind CSS\
+**Frontend:** React.js, Bootstrap CSS\
 **Backend:** Node.js, Express.js\
 **Database:** MongoDB\
 **Authentication:** Firebase (Phone OTP, Google Login)\
