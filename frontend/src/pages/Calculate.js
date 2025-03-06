@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Calculate.css";
-import imagewoman from "../assets/woman.jpg";
+import imagewoman from "../assets/women.png";
 
 const Calculate = () => {
   const [totalBudget, setTotalBudget] = useState(0);

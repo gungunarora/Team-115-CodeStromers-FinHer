@@ -7,7 +7,10 @@ import Dashboard from "./pages/Dashboard";
 import Calculate from "./pages/Calculate";
 import PrivateRoute from "./pages/PrivateRoute"; // Make sure this path is correct
 // import ProfilePage from "./pages/Profile";
-// import BudgetTracker from "./pages/Tracker";
+import BudgetTracker from "./pages/Tracker";
+import Feedback from "./pages/Feedback";
+import AboutUs from "./pages/AboutUs";
+
 
 
 
@@ -22,10 +25,13 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route element={<PrivateRoute />}>
           <Route path="/dashboard" element={<Dashboard />} />
-        </Route>
           <Route path="/calculate" element={<Calculate />} />
+          <Route path="/aboutus" element={<AboutUs/>} />
+          <Route path="/budgettracker" element={<BudgetTracker />} />
+
+           <Route path="/feedbackform" element={<Feedback/>} />
+          
 
 
           
